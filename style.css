@@ -136,6 +136,8 @@ span{
 }
 .amount-tk:focus{
     outline: none;
+    border-bottom: 1px solid #ff6347;
+    color: #ff6347;
 }
 #donatee{
     margin: 550px 670px;
@@ -182,4 +184,31 @@ span{
     background-color: #e4bd99;
     margin: 200px 950px;
     border-radius: 8px;
+}
+.icon1{
+    position: absolute;
+    background-image: url(icon1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    height: 40px;
+    width: 46px;
+}
+.icon2{
+    position: absolute;
+    background-image: url(icon2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    height: 52px;
+    width: 53px;
+}
+.icon3{
+    position: absolute;
+    background-image: url(icon3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    height: 45px;
+    width: 46px;
 }
