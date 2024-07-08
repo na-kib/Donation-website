@@ -5,6 +5,9 @@
     padding: 0;
     font-family: "Anton SC", sans-serif;
 }
+p{
+    font-family: "Roboto Condensed", sans-serif;
+}
 .pic1{
     background-image: url(pic1.jpg);
     background-size: cover;
@@ -40,7 +43,6 @@ span{
     width: 600px;
     text-align: center;
     color: azure;
-    font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
 }
 .donate{
@@ -52,6 +54,7 @@ span{
     position: absolute;
     margin: -140px 660px;
     z-index: 1;
+    cursor: pointer;
 }
 .head2{
     position: absolute;
@@ -66,7 +69,6 @@ span{
     height: 100px;
     width: 700px;
     text-align: center;
-    font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
 }
 #amount{
@@ -79,6 +81,7 @@ span{
     text-align: center;
     font-size: 20px;
     padding-top: 30px;
+    cursor: pointer;
 }
 #amount:hover{
     color: #ff6347;
@@ -158,7 +161,6 @@ span{
     height: 100px;
     width: 600px;
     text-align: center;
-    font-family: "Roboto Condensed", sans-serif;
 }
 .plan1{
     height: 300px;
@@ -222,7 +224,6 @@ span{
     text-align: justify;
     height: 200px;
     width: 250px;
-    font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
 }
 .body3{
@@ -250,7 +251,6 @@ span{
     position: absolute;
     height: 500px;
     width: 300px;
-    font-family: "Roboto Condensed", sans-serif;
     text-align: justify;
     margin: 130px 250px;
 }
@@ -298,31 +298,67 @@ span{
     margin: 100px 470px;
     height: 200px;
     width: 500px;
-    font-family: "Roboto Condensed", sans-serif;
     text-align: center;
 }
 .emailbox{
     position: absolute;
     margin: 220px 430px;
-    background-color: #e4bd99;
+    background-color: #FFF4D6;
     height: 200px;
     width: 600px;
     border-radius: 10px;
 }
 .email{
     position: absolute;
-    margin: 80px 50px;
+    margin: 82px 80px;
     height: 50px;
     width: 300px;
     border-radius: 10px 0px 0px 10px;
     border: none;
+    background-color: #D9D9D9;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+}
+.email::placeholder{
+    font-size: 20px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: normal;
+}
+.email:focus{
+    outline: none;
 }
 .email-b{
     position: absolute;
-    margin: 80px 300px;
+    margin: 82px 380px;
     height: 50px;
-    width: 100px;
+    width: 150px;
     border-radius: 0px 10px 10px 0px;
     border: none;
     background-color: #ff6347;
+    font-size: 20px;
+    cursor: pointer;
+}
+#footer{
+    position: absolute;
+    margin: 500px 0px;
+    background-color: #0B0D17;
+    height: 177px;
+    width: 1365px;
+}
+.head7{
+    color: #ff6347;
+    text-align: center;
+    padding-top: 40px;
+}
+.s-head7{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.copyright{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
 }
